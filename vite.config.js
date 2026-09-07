@@ -8,4 +8,7 @@ export default defineConfig({
     globals: true,
     environment: 'jsdom',
   },
+  server: {
+    allowedHosts: ['gha-workshop-fcaaftdnf5e9dsa3.centralus-01.azurewebsites.net']
+  },
 })
