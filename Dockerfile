@@ -1,4 +1,7 @@
 FROM node:20-alpine
+
+LABEL org.opencontainers.image.source=https://github.com/ykuete/calculator_image
+
 ARG NPM_TOKEN
 ENV NODE_AUTH_TOKEN=$NPM_TOKEN
 
